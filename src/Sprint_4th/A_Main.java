@@ -6,7 +6,7 @@ import java.util.Comparator;
 public class A_Main {
     public static void main(String[] args) {
        String [] one = new String[]{ "ca", "ab", "dc", "bd" };
-        Utility.sortPeople(one, new StringComparator());
+//        Utility.sortPeople(one, new StringComparator());
         System.out.println(Arrays.toString(one));
     }
 }

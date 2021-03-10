@@ -157,7 +157,7 @@ class DeveloperComparator implements Comparator<Developer>{
 
 class Utility {
 
-    public static <T> void sortPeople(T [] array, Comparator<T> comparator){
+    public static <T extends Person>void sortPeople(T[] array, Comparator<? super T> comparator){
         Arrays.sort(array,comparator);
     }
 }
